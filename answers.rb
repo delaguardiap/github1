@@ -1,3 +1,5 @@
+```ruby
+
 class Stocks
 
 	def self.get_companies
@@ -46,8 +48,7 @@ end
 Stocks.stock_price :google
 Stocks.stock_price :apple
 
-
---------------------------------------------------------------------------------------------
+#------------------------------------------------------
 
 require 'sinatra'
 require 'httparty'
@@ -67,3 +68,5 @@ end
 get "/sinatra" do
 	"Hello, Sinatra"
 end
+
+```
